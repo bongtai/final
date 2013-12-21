@@ -1,0 +1,90 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 15, 2013, 11:38:47 PM
+    Author     : llbt
+*/
+
+main{
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 40px;
+    background-color: none;
+    
+ 
+     @media screen and (min-width: 1019px){
+      margin-left: 0;
+    } 
+   
+    
+    section{
+        padding: 5px;
+        display: block;
+        margin: auto;
+        margin-bottom: 5px;
+        background-color: none;
+        
+        
+           
+            }       
+    a{
+          display: inline-block;
+             position: relative;
+             filter: grayscale(100%); 
+                -webkit-filter: grayscale(100%);
+                -moz-filter: grayscale(100%);
+                -ms-filter: grayscale(100%);
+                -o-filter: grayscale(100%);
+                  
+                
+                //@include filter grayscale(100%);
+        
+       // @mixin filter ($greyfill) 
+  //-webkit-filter: $greyfill;
+     //-moz-filter: $greyfill;
+      //-ms-filter: $greyfill;
+      // -o-filter: $greyfill;
+          //filter: $greyfill;
+    
+    }
+    
+  
+   .hidden-hover{ 
+    height: 100%;   
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+   
+    color: #f90;
+    font-weight: bold;
+    line-height: 1.1em;
+    
+   article{
+        position: relative;
+        padding: .2em 0 0 .6em;
+
+    }
+   }
+   
+    a:hover {
+        transition: .25s ease-in-out;
+            filter: grayscale(0);
+            -webkit-filter: grayscale(0);
+             -moz-filter: grayscale(0);
+                -ms-filter: grayscale(0);
+                -o-filter: grayscale(0);
+                 
+    .hidden-hover {
+     transition-delay: .5s ;
+     display: block;
+     z-index: 20;
+    ; 
+               
+    }       
+    } 
+}

@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 20, 2013, 10:59:47 AM
+    Author     : llbt
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{
+    font-family: opensan, helvetica, arial;
+    font-weight: normal;
+}
+
+h4{
+    color: #fff;
+    font-size: 1em;
+    font-weight: 100;
+   padding: 0.25em;
+}
+
+h3{
+       color: #000;
+    font-size: 1em;
+    font-weight: 100;
+   
+    }
+
+
+main, about 
+{ 
+    p{
+   font-size: 1em;
+    font-weight: 100;
+ 
+}
+}
+
+small{
+  
+    letter-spacing: .75px;
+}
+
+
+.row {
+    max-width: 100%;
+}

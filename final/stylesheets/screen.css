@@ -1,0 +1,330 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 20, 2013, 10:59:47 AM
+    Author     : llbt
+*/
+/* line 22, ../sass/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font-family: opensan, helvetica, arial;
+  font-weight: normal; }
+
+/* line 27, ../sass/_reset.scss */
+h4 {
+  color: #fff;
+  font-size: 1em;
+  font-weight: 100;
+  padding: 0.25em; }
+
+/* line 34, ../sass/_reset.scss */
+h3 {
+  color: #000;
+  font-size: 1em;
+  font-weight: 100; }
+
+/* line 44, ../sass/_reset.scss */
+main p, about p {
+  font-size: 1em;
+  font-weight: 100; }
+
+/* line 51, ../sass/_reset.scss */
+small {
+  letter-spacing: .75px; }
+
+/* line 57, ../sass/_reset.scss */
+.row {
+  max-width: 100%; }
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 20, 2013, 1:42:33 PM
+    Author     : llbt
+*/
+/* line 15, ../sass/_about.scss */
+.about img {
+  margin: 0;
+  width: 100%; }
+  @media screen and (min-width: 954px) {
+    /* line 15, ../sass/_about.scss */
+    .about img {
+      position: fixed;
+      left: 0; } }
+/* line 26, ../sass/_about.scss */
+.about .text {
+  width: 100%; }
+  @media screen and (min-width: 954px) {
+    /* line 26, ../sass/_about.scss */
+    .about .text {
+      padding-top: 2em;
+      position: fixed;
+      max-width: 50%; } }
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 14, 2013, 6:29:24 PM
+    Author     : llbt
+*/
+/* line 11, ../sass/_header.scss */
+header {
+  display: block;
+  padding: 0;
+  background-color: purple; }
+  /* line 14, ../sass/_header.scss */
+  header h2 {
+    color: #E8A30C;
+    text-align: center;
+    margin: 0;
+    padding: 3; }
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 14, 2013, 6:30:10 PM
+    Author     : llbt
+*/
+/* line 10, ../sass/_footer.scss */
+#footer {
+  background: none;
+  margin-top: 10px;
+  padding: 10px 5px 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  z-index: 30; }
+  /* line 19, ../sass/_footer.scss */
+  #footer small {
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    color: black; }
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 14, 2013, 6:30:20 PM
+    Author     : llbt
+*/
+/* line 10, ../sass/_nav.scss */
+.font, .top-bar .name h1 a, .top-bar .toggle-topbar.menu-icon a, .top-bar .top-bar-section ul li a {
+  font-weight: 200;
+  text-spacing: 100px; }
+
+/* line 17, ../sass/_nav.scss */
+.top-bar {
+  height: 45px;
+  line-height: 45px;
+  position: relative;
+  background: #ffffff;
+  margin-bottom: 0; }
+  @media only screen and (min-width: 940px) {
+    /* line 17, ../sass/_nav.scss */
+    .top-bar {
+      text-align: center; } }
+  /* line 31, ../sass/_nav.scss */
+  .top-bar .title-area {
+    border-bottom: #dbdbdb solid  1px; }
+    @media only screen and (min-width: 940px) {
+      /* line 31, ../sass/_nav.scss */
+      .top-bar .title-area {
+        float: left;
+        border-bottom: none; } }
+  /* line 41, ../sass/_nav.scss */
+  .top-bar .name h1 a {
+    color: #111111; }
+  /* line 48, ../sass/_nav.scss */
+  .top-bar .has-dropdown {
+    z-index: 30; }
+  /* line 54, ../sass/_nav.scss */
+  .top-bar .toggle-topbar {
+    background: #ffffff;
+    color: #111111; }
+  /* line 63, ../sass/_nav.scss */
+  .top-bar .toggle-topbar.menu-icon a {
+    color: #111111;
+    text-indent: -10px; }
+  /* line 69, ../sass/_nav.scss */
+  .top-bar .top-bar-section {
+    float: none; }
+    /* line 72, ../sass/_nav.scss */
+    .top-bar .top-bar-section ul {
+      float: right; }
+      /* line 75, ../sass/_nav.scss */
+      .top-bar .top-bar-section ul li a {
+        background: #ffffff;
+        color: #111111;
+        text-align: center; }
+        /* line 81, ../sass/_nav.scss */
+        .top-bar .top-bar-section ul li a:hover {
+          background: #ffffff;
+          color: #ed9c28; }
+      /* line 91, ../sass/_nav.scss */
+      .top-bar .top-bar-section ul li .dropdown li.title h5 a {
+        color: #111111;
+        font-size: .75em;
+        padding: 12px 15px; }
+
+/* line 119, ../sass/_nav.scss */
+.top-bar-section ul {
+  background-color: #ffffff; }
+
+/* line 126, ../sass/_nav.scss */
+.top-bar.expanded .title-area {
+  background: #ffffff; }
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 15, 2013, 11:38:47 PM
+    Author     : llbt
+*/
+/* line 11, ../sass/_main.scss */
+main {
+  width: 100%;
+  margin-left: 0;
+  margin-bottom: 40px;
+  background-color: none; }
+  @media screen and (min-width: 1019px) {
+    /* line 11, ../sass/_main.scss */
+    main {
+      margin-left: 0; } }
+  /* line 23, ../sass/_main.scss */
+  main section {
+    padding: 5px;
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+    background-color: none; }
+  /* line 33, ../sass/_main.scss */
+  main a {
+    display: inline-block;
+    position: relative;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%); }
+  /* line 55, ../sass/_main.scss */
+  main .hidden-hover {
+    height: 100%;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: #f90;
+    font-weight: bold;
+    line-height: 1.1em; }
+    /* line 67, ../sass/_main.scss */
+    main .hidden-hover article {
+      position: relative;
+      padding: .2em 0 0 .6em; }
+  /* line 74, ../sass/_main.scss */
+  main a:hover {
+    transition: .25s ease-in-out;
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -ms-filter: grayscale(0);
+    -o-filter: grayscale(0); }
+    /* line 82, ../sass/_main.scss */
+    main a:hover .hidden-hover {
+      transition-delay: 0.5s;
+      display: block;
+      z-index: 20; }
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 21, 2013, 3:49:20 PM
+    Author     : llbt
+*/
+/* line 13, ../sass/_gallery.scss */
+#largeImage {
+  margin-right: 20px;
+  position: relative;
+  text-align: center; }
+  @media screen and (min-width: 954px) {
+    /* line 13, ../sass/_gallery.scss */
+    #largeImage {
+      min-height: 700px;
+      max-height: 800px;
+      margin-bottom: 3px; } }
+  /* line 25, ../sass/_gallery.scss */
+  #largeImage img {
+    position: absolute;
+    display: block;
+    margin: auto 0; }
+
+/* line 40, ../sass/_gallery.scss */
+#imageContainer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding: 20px 10px 60px 10px;
+  background: #fff; }
+  @media screen and (min-width: 954px) {
+    /* line 40, ../sass/_gallery.scss */
+    #imageContainer {
+      position: relative; } }
+  /* line 54, ../sass/_gallery.scss */
+  #imageContainer img {
+    height: 80px;
+    max-width: 100%;
+    margin-right: .5em;
+    margin-bottom: .5em; }
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 21, 2013, 4:52:13 PM
+    Author     : llbt
+*/
+/* line 15, ../sass/_contact.scss */
+form input[type="text"], form textarea {
+  font-size: .75em;
+  color: #5e5e5e; }
+/* line 22, ../sass/_contact.scss */
+form textarea {
+  height: 10em; }

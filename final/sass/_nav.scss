@@ -1,0 +1,150 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 14, 2013, 6:30:20 PM
+    Author     : llbt
+*/
+.font{
+    font-weight: 200;
+    text-spacing: 100px;  
+}
+
+
+
+.top-bar {
+
+height: 45px;
+line-height: 45px;
+position: relative;
+background: #ffffff;
+margin-bottom: 0;
+
+
+    @media only screen and (min-width: 940px){
+    text-align: center;
+   
+}
+
+.title-area{
+    border-bottom: #dbdbdb solid  1px;
+      @media only screen and (min-width: 940px){
+     float: left;
+      border-bottom: none;
+    }
+}
+
+.name {
+    h1 {
+        a{
+        @extend .font;
+        color: #111111;
+        }  
+    }   
+}
+
+.has-dropdown{
+    z-index: 30;
+}
+
+
+
+.toggle-topbar {
+    background: #ffffff;
+    color: #111111;
+    span{    
+    }   
+}
+
+
+.toggle-topbar.menu-icon{
+     a{color: #111111;
+       text-indent:-10px;
+       @extend .font;
+  }
+ }
+ 
+.top-bar-section {
+  float: none;
+   
+    ul{ float: right; 
+        li{
+           a 
+           {background: #ffffff;
+            color: #111111;
+            text-align: center;
+            @extend .font;
+              &:link{ }
+              &:visited{  }
+              &:hover{ 
+              background: #ffffff;
+              color: #ed9c28 ;}
+              &:active{ }
+           }
+           .dropdown {
+              
+               li.title {
+                  
+                   h5 {
+                       a{
+                         color: #111111; 
+                         font-size: .75em;
+                         padding: 12px 15px;
+                           @media only screen and (min-width: 940px){
+                                
+
+                            }
+                         
+                       }
+                   }
+                        
+               }
+              
+           }
+          
+        }
+        
+    }  
+    
+    
+}
+
+
+}
+
+
+.top-bar-section{
+    ul{
+        background-color: #ffffff;
+    }
+}
+
+
+.top-bar.expanded {
+    .title-area{
+        background: #ffffff; 
+        ul { 
+            
+            h5{
+              
+            }
+        }     
+    }     
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
